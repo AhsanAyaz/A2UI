@@ -38,7 +38,7 @@
       "properties": {
         "text": {
           "type": "object",
-          "description": "The value for this property. Can be a literal value or a data binding path. If both `path` and a `literal` value are provided, the client will initialize the data model at the given path with the literal value and then bind to that path.",
+          "description": "The text to display. This property supports markdown for rich text formatting. Can be a literal value or a data binding path. If both `path` and a `literal` value are provided, the client will initialize the data model at the given path with the literal value and then bind to that path.",
           "properties": {
             "path": {
               "type": "string",
@@ -46,7 +46,7 @@
             },
             "literalString": {
               "type": "string",
-              "description": "A fixed, hardcoded string value."
+              "description": "A fixed, hardcoded string value. Markdown is supported."
             }
           }
         }

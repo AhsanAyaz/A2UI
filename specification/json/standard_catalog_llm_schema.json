@@ -103,6 +103,7 @@
                     "properties": {
                       "text": {
                         "type": "object",
+                        "description": "The text to display. This property supports markdown for rich text formatting.",
                         "properties": {
                           "path": {
                             "type": "string",
@@ -110,7 +111,7 @@
                           },
                           "literalString": {
                             "type": "string",
-                            "description": "A fixed, hardcoded string value."
+                            "description": "A fixed, hardcoded string value. Markdown is supported."
                           }
                         }
                       }
